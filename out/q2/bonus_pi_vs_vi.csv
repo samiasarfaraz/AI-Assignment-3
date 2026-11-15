@@ -1,0 +1,3 @@
+method,iterations,time (s)
+Value Iteration,89,0.003718
+Policy Iteration,11,0.1486

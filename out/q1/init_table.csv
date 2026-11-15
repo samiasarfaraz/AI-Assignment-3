@@ -1,0 +1,13 @@
+init,seed,final SSE,iterations
+random,0,1113,50
+random,1,1112,30
+random,2,1112,48
+random,3,1112,47
+random,4,1112,38
+random,mean,1112,42.6
+kmeans++,0,1205,15
+kmeans++,1,1112,35
+kmeans++,2,1305,26
+kmeans++,3,1119,50
+kmeans++,4,1112,36
+kmeans++,mean,1171,32.4
