@@ -1,0 +1,25 @@
+experiment,method,clusters,noise %,time (s)
+rings,K-Means,2,0,0.001016
+rings,DBSCAN,2,0,0.01058
+blobs+outliers,K-Means,3,0,0.0005109
+blobs+outliers,DBSCAN,3,6.167,0.007211
+sample1 RGB,K-Means,16,0,0.01414
+sample1 RGB,DBSCAN,7,7.812,0.1959
+sample1 RGB+xy,K-Means,16,0,0.009267
+sample1 RGB+xy,DBSCAN,7,4.883,0.183
+sample1,DBSCAN eps=0.0340 (-30%),11,18.31,0.1816
+sample1,DBSCAN eps=0.0485 (+0%),7,7.812,0.1852
+sample1,DBSCAN eps=0.0631 (+30%),4,4.077,0.2149
+sample1,K-Means K=14,14,0,0.0147
+sample1,K-Means K=16,16,0,0.0144
+sample1,K-Means K=18,18,0,0.01417
+sample2 RGB,K-Means,16,0,0.003018
+sample2 RGB,DBSCAN,12,2.423,0.783
+sample2 RGB+xy,K-Means,16,0,0.008039
+sample2 RGB+xy,DBSCAN,9,2.647,0.1174
+sample2,DBSCAN eps=0.0067 (-30%),19,4.974,0.7362
+sample2,DBSCAN eps=0.0096 (+0%),12,2.423,0.7922
+sample2,DBSCAN eps=0.0125 (+30%),10,2.296,0.7835
+sample2,K-Means K=14,14,0,0.003021
+sample2,K-Means K=16,16,0,0.00265
+sample2,K-Means K=18,18,0,0.003024

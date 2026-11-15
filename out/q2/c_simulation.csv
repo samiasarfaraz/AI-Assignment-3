@@ -1,0 +1,3 @@
+policy,avg return,avg steps,success rate,spill rate
+deterministic-world policy,29.13,9.47,0.693,0.307
+stochastic-world policy,80.3,19.7,1,0
